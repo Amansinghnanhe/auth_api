@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container around the form */
+.auth-container {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+/* Heading */
+.auth-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Submit button */
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.auth-container button:hover {
+  background-color: #2563eb;
+}
+
+/* Link text */
+.auth-container .link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.auth-container .link a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.auth-container .link a:hover {
+  text-decoration: underline;
+}
